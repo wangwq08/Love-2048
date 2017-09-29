@@ -5,7 +5,7 @@ function Tile(position, value, text) {
   this.x                = position.x;
   this.y                = position.y;
   this.value            = value || 2;
-  this.text             = text || '旋照';
+  this.text             = text || '搭讪';
   this.previousPosition = null;
   this.mergedFrom       = null; // Tracks tiles that merged together
 }

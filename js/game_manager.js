@@ -5,7 +5,7 @@ function GameManager(size, InputManager, Actuator, StorageManager) {
   this.actuator       = new Actuator;
 
   this.startTiles     = 2;
-  this.tilesTextArr   = ['旋照','开光','融合','心动','灵寂','元婴','出窍','分神','合体','渡劫','大乘'];
+  this.tilesTextArr   = ['搭讪','暧昧','约会','表白','牵手','拥抱','接吻','求婚','结婚','相濡以沫','白头偕老'];
 
   this.inputManager.on("move", this.move.bind(this));
   this.inputManager.on("restart", this.restart.bind(this));
